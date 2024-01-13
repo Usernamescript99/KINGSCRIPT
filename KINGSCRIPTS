@@ -1,4 +1,4 @@
---Loads
+ --Loads
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 --Main
@@ -108,9 +108,77 @@ Tab:AddButton({
   	end    
 })
 
+
+
+Tab:AddButton({
+	Name = "Redz Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+	  
+  	end    
+})
+
+Tab:AddButton({
+	Name = " Raito Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+	  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MTritet Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+	  
+  	end    
+})
+
+ Tab:AddButton({
+	Name = "Perd Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/PerdHub/Blosfruitscript/main/PerdLoader"))()
+	  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fai Fao Hub",
+	Callback = function()
+	  loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+	  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Vector Hub",
+	Callback = function()
+	  _G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+	  
+  	end    
+})
+
+ Tab:AddButton({
+	Name = "ZEKROM Hub",
+	Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()
+	  
+  	end    
+})
+
+ Tab:AddButton({
+	Name = "Full Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/Fullloader"))()
+	  
+  	end    
+})
+
 local Section = Tab:AddSection({
 	Name = "Galera Depois vai ter mais script"
 })
+
 
  local Tab = Window:MakeTab({
 	Name = "Tab  Blade Ball",
@@ -123,5 +191,35 @@ local Section = Tab:AddSection({
 	Callback = function()
 	  v=1;loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
  
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Tab  Pet simulado",
+	Icon = "rbxassetid://14400409576",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = " Redz Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+	  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Zap Hub",
+	Callback = function()
+	  loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+	  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sky Hub",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))()
+	  
   	end    
 })
