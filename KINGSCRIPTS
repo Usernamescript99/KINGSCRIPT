@@ -175,6 +175,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/
   	end    
 })
 
+Tab:AddButton({
+	Name = "OMYG Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+	  
+  	end    
+})
+
 local Section = Tab:AddSection({
 	Name = "Galera Depois vai ter mais script"
 })
@@ -223,3 +231,35 @@ Tab:AddButton({
 	  
   	end    
 })
+
+Tab:AddButton({
+	Name = "Bt Hub",
+	Callback = function()
+	  loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
+	  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Petsim99 Hub",
+	Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/PetSimulator99.lua"))()
+	  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "idio Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Somerandomidiot/Lua/main/PS99_Protected.txt"))()
+	  
+  	end    
+})
+
+Tab:AddButton({
+	Name = "WD Hub",
+	Callback = function()
+	  
+  	end    
+})
+
