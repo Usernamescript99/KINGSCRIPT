@@ -2,7 +2,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 --Main
-local Window = OrionLib:MakeWindow({Name = "KING SCRIPTS", HidePremium = false, SaveConfig = true, ConfigFolder = "kk",IntroText = "KING SCRIPTS"})
+local Window = OrionLib:MakeWindow({Name = "KING SCRIPTS (BETA 1.0)", HidePremium = false, SaveConfig = true, ConfigFolder = "kk",IntroText = "KING SCRIPTS"})
 
 --Tab
 local Tab = Window:MakeTab({
