@@ -183,83 +183,30 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = " Uranium Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+	  
+  	end    
+})
+
+
+
 local Section = Tab:AddSection({
 	Name = "Galera Depois vai ter mais script"
 })
 
-
- local Tab = Window:MakeTab({
-	Name = "Tab  Blade Ball",
+local Tab = Window:MakeTab({
+	Name = "Tab scriptSpeed",
 	Icon = "rbxassetid://14400409576",
 	PremiumOnly = false
 })
 
  Tab:AddButton({
-	Name = "Alchemy Hub",
+	Name = "Speed Test (No key)",
 	Callback = function()
-	  v=1;loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
- 
-  	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "Tab  Pet simulado",
-	Icon = "rbxassetid://14400409576",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = " Redz Hub",
-	Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Usernamescript99/SPEED.TRUE/main/Speedfreescripts%2520"))()
 	  
   	end    
 })
-
-Tab:AddButton({
-	Name = "Zap Hub",
-	Callback = function()
-	  loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
-	  
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Sky Hub",
-	Callback = function()
-	  loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))()
-	  
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Bt Hub",
-	Callback = function()
-	  loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
-	  
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Petsim99 Hub",
-	Callback = function()
-	   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/PetSimulator99.lua"))()
-	  
-  	end    
-})
-
-Tab:AddButton({
-	Name = "idio Hub",
-	Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Somerandomidiot/Lua/main/PS99_Protected.txt"))()
-	  
-  	end    
-})
-
-Tab:AddButton({
-	Name = "WD Hub",
-	Callback = function()
-	  
-  	end    
-})
-
